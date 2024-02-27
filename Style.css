@@ -166,13 +166,13 @@ footer {
 
   /* Education and Experience Sections Styles */
 #education, #experience {
-    background-color: #f0f0f0; /* Light grey background for separation */
-    padding: 20px; /* Spacing inside the sections */
-    margin-bottom: 20px; /* Space between sections */
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    margin-bottom: 20px; 
 }
 
 #education h2, #experience h2 {
-    margin-bottom: 10px; /* Space below the heading */
+    margin-bottom: 10px;
 }
 /* End Education and Experience Sections Styles */
 
