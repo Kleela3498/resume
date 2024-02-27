@@ -7,22 +7,31 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-        <header>
-            <img src="profile-photo.jpg" alt="Sai Leela Kuragayala" class="profile-photo">
-            <h1>Your Name</h1>
-        </header>
+    <!-- Hero Section with background video and profile picture -->
+    <section class="hero">
+        <video autoplay loop muted playsinline class="hero-video">
+            <source src="/Users/premchandjalla/Desktop/Resume/production_id_4193130 (1440p).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-inner">
+            <img src="path-to-your-profile-picture.jpg" alt="Your Name" class="profile-photo">
+            <h1>Sai Leela Kuragayala</h1>
+            <p class="tagline">Full Stack Developer</p>
+        </div>
+    </section>
+
     
-        <nav>
-            <ul>
-                <li><a href="#summary">Summary</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#awards">Awards</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    
+    <!-- Navigation -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
         <section id="summary">
             <h2>Summary</h2>
             <p>Objective statement or summary goes here. This should be a brief introduction about yourself and your career goals.</p>
@@ -37,13 +46,34 @@
         </section>
     
         <section id="experience">
-            <h2>Work Experience</h2>
-            <ul>
-                <li><strong>Job Title</strong> - Company Name (Date Range)</li>
-                <p>Responsibilities and achievements...</p>
-                <!-- Add more items here -->
-            </ul>
-        </section>
+            <h2>Experience</h2>
+            
+            <!-- Experience Item 1 -->
+            <div class="experience-item">
+              <h3>Application Developer</h3>
+              <h4>Development Bank of Singapore</h4>
+              <p>August 2022 - Present</p>
+              <ul>
+                <li>Added new functionalities to an in-house end-to-end application performance monitoring tool which aids in the generation and collection of application telemetry data such as metrics, logs, and traces for Java, Python, and Golang based applications using open telemetry framework.</li>
+                <li>The Monitoring tool was adopted and on-boarded by 70+ internal Trading applications with a drop rate of less than 1%, which resulted in the improvement of efficiency and decreased the root cause analysis time.</li>
+                <li>As a support lead, was responsible for software maintenance across the code base, database and acted as point of contact to multiple teams and users. Merged multiple tables and created a single table in the database to reduce turnaround time for root cause analysis by 40%. Optimized shell script for CI/CD deployment through Jenkins which reduced the deployment time by 50%.</li>
+              </ul>
+            </div>
+            
+            <!-- Experience Item 2 -->
+            <div class="experience-item">
+              <h3>Intern, Associate Engineer Trainee</h3>
+              <h4>Ericsson India Global Services</h4>
+              <p>February 2022 - August 2022</p>
+              <ul>
+                <li>As an Intern, received extensive training on Java, Spring Boot, Git, and MariaDB.</li>
+                <li>Understood the functioning of teams within an organization and the interdependency between those teams. Trained on how to translate the knowledge gained in college to a product in real time.</li>
+                <li>Got hands-on experience in database manipulation with the help of SQL commands.</li>
+              </ul>
+            </div>
+          
+          </section>
+          
     
         <section id="skills">
             <h2>Skills</h2>
@@ -69,7 +99,7 @@
         </section>
     
         <footer>
-            <p>&copy; Your Name - Year</p>
+            <p>&copy; Sai Leela Kuragayala - 2024</p>
         </footer>
 </body>
 </html>
