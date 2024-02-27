@@ -32,27 +32,41 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-        <section id="summary">
-            <h2>Summary</h2>
-            <p>Objective statement or summary goes here. This should be a brief introduction about yourself and your career goals.</p>
-        </section>
+        <!-- Summary Section -->
+        <div id="summary" style="background-color: #f8f9fa; padding: 40px; text-align: center;">
+            <h2>About Me</h2>
+            <p style="font-size: 16px; color: #333; max-width: 600px; margin: auto;">
+             As a full-stack developer with more than two years of experience, I have honed my skills across a breadth of front-end and back-end technologies. My career includes designing and developing sophisticated applications for financial institutions. Passionate about technology, I am committed to a continuous journey of discovery and innovation in the ever-evolving tech landscape.
+             </p>
+        </div>
+<!-- End Summary Section -->
+
     
-        <section id="education">
+        <div id="education" style="background-color: #f0f0f0; padding: 20px;">
             <h2>Education</h2>
-            <ul>
-                <li><strong>Degree, Field of Study</strong> - School Name (Year)</li>
-                <!-- Add more items here -->
-            </ul>
-        </section>
+            <div class="education-item">
+                <h3>New Jersey Institute of Technology</h3>
+                <p>MS in Information Systems</p>
+            </div>
+            <div class="education-item">
+                <h3>Bhoj Reddy College of Engineering for Women</h3>
+                <p>Bachelor of Technology, Information Technology Department</p>
+            </div>
+            <div class="education-item">
+                <h3>Teegala Krishna Reddy College</h3>
+                <p>Diploma in Computer Science</p>
+            </div>
+        </div>
+        
     
-        <section id="experience">
+        <div id="experience" style="background-color: #f0f0f0; padding: 20px;">
             <h2>Experience</h2>
             
             <!-- Experience Item 1 -->
             <div class="experience-item">
               <h3>Application Developer</h3>
               <h4>Development Bank of Singapore</h4>
-              <p>August 2022 - Present</p>
+              <p>August 2022 - December 2023</p>
               <ul>
                 <li>Added new functionalities to an in-house end-to-end application performance monitoring tool which aids in the generation and collection of application telemetry data such as metrics, logs, and traces for Java, Python, and Golang based applications using open telemetry framework.</li>
                 <li>The Monitoring tool was adopted and on-boarded by 70+ internal Trading applications with a drop rate of less than 1%, which resulted in the improvement of efficiency and decreased the root cause analysis time.</li>
@@ -72,31 +86,58 @@
               </ul>
             </div>
           
-          </section>
+        </div>
           
     
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Skill 1</li>
-                <!-- Add more items here -->
+        <!-- Skills Section -->
+        <div id="skills" style="background-color: #007bff; padding: 40px; color: white;">
+            <h2>My Skills</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li>Java <span class="stars">★★★★☆</span></li>
+                <li>HTML <span class="stars">★★★★★</span></li>
+                <li>JavaScript <span class="stars">★★★★☆</span></li>
+                <li>CSS <span class="stars">★★★★☆</span></li>
+                <li>SQL <span class="stars">★★★★☆</span></li>
+                <li>React <span class="stars">★★★☆☆</span></li>
+                <li>Angular <span class="stars">★★★★☆</span></li>
+                <li>Bootstrap <span class="stars">★★★★☆</span></li>
+                <li>Spring Boot <span class="stars">★★★☆☆</span></li>
+                <li>GIT <span class="stars">★★★★★</span></li>
+                <li>MariaDB <span class="stars">★★★☆☆</span></li>
+                <li>Grafana <span class="stars">★★☆☆☆</span></li>
             </ul>
-        </section>
+        </div>
+<!-- End Skills Section -->
+
     
         <section id="awards">
-            <h2>Awards & Certifications</h2>
+            <h2>Awards & Recognitions</h2>
             <ul>
-                <li>Award/Certification - Issuing Organization (Year)</li>
-                <!-- Add more items here -->
+                <li>
+                    <strong>Hackathon Winner</strong> - Won the hackathon held during the hiring process by DBS Tech India. Participated in a competition with over 600 graduates and secured the first position with my team.
+                </li>
+                <li>
+                    <strong>Best Delegate Award</strong> - Model United Nations, Birla Institute of Technology and Science, Hyderabad.
+                </li>
+                <li>
+                    <strong>ITQ Points</strong> - Received the highest number of recognition points from my team for my contribution towards the project.
+                </li>
             </ul>
         </section>
+        
 
-        <section id="contact">
-            <h2>Contact Information</h2>
-            <ul>
-                <li>Contact Info</li>
-            </ul>
-        </section>
+        <!-- Contact Section -->
+        <div id="contact" style="background-color: #3498db; padding: 20px; text-align: center;">
+            <h2 style="color: white; margin-bottom: 20px;">Get in Touch</h2>
+            <form action="mailto:leela3498@gmail.com" method="post" enctype="text/plain" style="display: inline-block; width: 300px;">
+                <input type="email" name="email" placeholder="Your email" required style="width: 100%; padding: 15px; margin-bottom: 15px; border: none; border-radius: 3px;">
+                <textarea name="message" placeholder="Your message" required style="width: 100%; padding: 15px; margin-bottom: 15px; border: none; border-radius: 3px;"></textarea>
+                <input type="submit" value="Send" style="background-color: white; color: #3498db; border: none; padding: 10px 20px; cursor: pointer; transition: background-color 0.3s;">
+        </form>
+</div>
+<!-- End Contact Section -->
+
+
     
         <footer>
             <p>&copy; Sai Leela Kuragayala - 2024</p>

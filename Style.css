@@ -25,6 +25,8 @@ body, html {
     overflow: hidden;
 }
 
+
+
 /* Profile Picture */
 .profile-photo {
     border-radius: 50%;
@@ -160,6 +162,89 @@ footer {
     list-style-type: none;
     padding: 0;
   }
-  
- 
 
+
+  /* Education and Experience Sections Styles */
+#education, #experience {
+    background-color: #f0f0f0; /* Light grey background for separation */
+    padding: 20px; /* Spacing inside the sections */
+    margin-bottom: 20px; /* Space between sections */
+}
+
+#education h2, #experience h2 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+/* End Education and Experience Sections Styles */
+
+
+  
+ /* Contact Section Styles */
+#contact {
+    background-color: #3498db;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    display: inline-block;
+    width: 300px;
+}
+
+#contact input[type=email],
+#contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box; 
+}
+
+#contact input[type=submit] {
+    background-color: white;
+    color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-sizing: border-box; 
+}
+
+#contact input[type=submit]:hover {
+    background-color: #2980b9;
+    color: white;
+}
+/* End Contact Section Styles */
+
+
+/* Skills Section Styles */
+#skills {
+    background-color: #007bff;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+#skills h2 {
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.stars {
+    font-size: 18px;
+}
+/* End Skills Section Styles */
